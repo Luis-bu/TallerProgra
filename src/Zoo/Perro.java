@@ -1,6 +1,7 @@
 package Zoo;
+import java.io.Serializable;
 
-public class Perro extends Animal{
+public class Perro extends Animal implements Serializable{
 
     //Atributo propio de perro
     private String raza;

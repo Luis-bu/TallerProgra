@@ -1,5 +1,6 @@
 package Zoo;
 import java.util.Map;
+import java.io.Serializable;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,6 +23,10 @@ public class Main {
         zoo.mostrarSonidos();
         zoo.mostrarConteoPorTipo();
 
+        //Guardamos en un Bin
+        zoo.guardarAnimales("animals.bin");
+
+        zoo.cargarAnimales("animals.bin");
 
     }
 }

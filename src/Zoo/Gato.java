@@ -1,6 +1,6 @@
 package Zoo;
-
-public class Gato extends Animal{
+import java.io.Serializable;
+public class Gato extends Animal implements Serializable{
 
     //Constructor
     public Gato(String nombre, int edad){
